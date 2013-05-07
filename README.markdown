@@ -109,7 +109,7 @@ GPLv3. See COPYING.
 		* cd pyocr
 		* sudo python ./setup.py install
 	* Or just this with either sudo or virtualenv:
-		* pip instal -e git+git://github.com/jflesch/pyocr.git#egg=pyocr
+		* pip install -e git+git://github.com/jflesch/pyocr.git#egg=pyocr
 
 ## Installation
 

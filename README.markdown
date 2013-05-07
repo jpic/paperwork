@@ -95,6 +95,8 @@ GPLv3. See COPYING.
 		* git clone git://github.com/jflesch/pyinsane.git
 		* cd pyinsane
 		* sudo python ./setup.py install
+	* Or just this with either sudo or virtualenv:
+		* pip install -e git+git://github.com/jflesch/pyinsane.git#egg=pyinsane
 * OCR (optional for document searching ; required for scanning)
 	* Tesseract (>= v3.01) (recommended)
 		* Debian/Ubuntu package: tesseract-ocr tesseract-ocr-&lt;your language&gt;
@@ -106,7 +108,8 @@ GPLv3. See COPYING.
 		* git clone git://github.com/jflesch/pyocr.git
 		* cd pyocr
 		* sudo python ./setup.py install
-
+	* Or just this with either sudo or virtualenv:
+		* pip instal -e git+git://github.com/jflesch/pyocr.git#egg=pyocr
 
 ## Installation
 
